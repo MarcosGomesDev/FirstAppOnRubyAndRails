@@ -1,27 +1,12 @@
 <div id="<%= dom_id friend %>">
-  <p>
-    <strong>First name:</strong>
+  <h1 class="display-4">
     <%= friend.first_name %>
-  </p>
-
-  <p>
-    <strong>Last name:</strong>
     <%= friend.last_name %>
-  </p>
-
-  <p>
-    <strong>Email:</strong>
-    <%= friend.email %>
-  </p>
-
-  <p>
-    <strong>Phone:</strong>
-    <%= friend.phone %>
-  </p>
-
-  <p>
-    <strong>Instagram:</strong>
+  </h1>
+  <p class="lead">
+    <%= friend.email %>  |
+    <%= friend.phone %>  |
     <%= friend.instagram %>
   </p>
-
+  <br/>
 </div>
