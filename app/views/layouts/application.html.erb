@@ -19,7 +19,11 @@
     <%= render "home/header" %>
     <div class="container">
       <br/>
-      <% if notice  %>
+      <% if notice %>
+        <%= render 'layouts/alerts' %>
+      <% end %>
+
+      <% if alert %>
         <%= render 'layouts/alerts' %>
       <% end %>
 
